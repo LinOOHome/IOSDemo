@@ -1,1 +1,4 @@
-sceneSetups: []
+sceneSetups:
+- path: Assets/VictorsAssets/TouchControlsKit-Lite/Content/FirstPersonExample/FirstPerson.unity
+  isLoaded: 1
+  isActive: 1

@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: AreaWater
+  m_Shader: {fileID: 4800000, guid: 81f864962235e834ab36d39601bda904, type: 3}
+  m_ShaderKeywords: _REFL_SSR
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _FoamMap:
+        m_Texture: {fileID: 2800000, guid: 3356e6b366b262745bd52e1dc82adf1d, type: 3}
+        m_Scale: {x: 0.1, y: 0.1}
+        m_Offset: {x: -0.030254453, y: -0.0000000026449292}
+    - _NormalMap0:
+        m_Texture: {fileID: 2800000, guid: cbdd058aa7ea56d478c4bd3e36fc102d, type: 3}
+        m_Scale: {x: 0.1, y: 0.1}
+        m_Offset: {x: 0.30254462, y: 0}
+    - _NormalMap1:
+        m_Texture: {fileID: 2800000, guid: cbdd058aa7ea56d478c4bd3e36fc102d, type: 3}
+        m_Scale: {x: 0.06, y: 0.06}
+        m_Offset: {x: 0.08811497, y: 0.064019255}
+    m_Floats:
+    - _AlphaFalloff: 1
+    - _DeepWaterAmbientBoost: 0.3
+    - _DeepWaterIntensityDark: 1
+    - _DeepWaterIntensityHorizon: 0.4
+    - _DeepWaterIntensityZenith: 1
+    - _DetailFalloffDistance: 40
+    - _DetailFalloffNormalGoal: 0.2
+    - _DetailFalloffStart: 60
+    - _FoamAmbient: 0.3
+    - _FoamFalloff: 0.5
+    - _FoamStrength: 0.5
+    - _FogDensity: 0
+    - _FogEnd: 0
+    - _FogStart: 0
+    - _FresnelPow: 8
+    - _ReflStrength: 0.9
+    - _RefrNormalOffset: 0.1
+    - _RefrNormalOffsetRamp: 2
+    - _RefrStrength: 1
+    - _SpecularIntensity: 0.02
+    - _SpecularRoughness: 0.0002
+    - _WaterLevel: 6
+    - _WindAngle: 5
+    m_Colors:
+    - _AbsorptionCoeffs: {r: 15, g: 39, b: 40, a: 1}
+    - _DeepWaterColor: {r: 0, g: 0, b: 0, a: 0}
+    - _FogColor: {r: 0, g: 0, b: 0, a: 0}
+    - _RefrColor: {r: 1, g: 0, b: 0, a: 1}
+    - _SunColor: {r: 1, g: 0.95, b: 0.6, a: 1}
+    - _WaveAngles: {r: 0, g: 17, b: 21, a: 51}
+    - _WaveConstants: {r: 0.7853982, g: 0.20943952, b: 0.62831855, a: 0.62831855}
+    - _WaveDerivativeConstants: {r: 0, g: 0.08377581, b: 0, a: 0}
+    - _WaveDirection01: {r: 1, g: 0, b: 0.9563048, a: 0.2923717}
+    - _WaveDirection23: {r: 1, g: 0, b: 1, a: 0}
+    - _WaveExponents: {r: 1, g: 4, b: 1, a: 1}
+    - _WaveLengths: {r: 8, g: 30, b: 10, a: 10}
+    - _WaveOffsets: {r: 6.0508924, g: 18.15267, b: 0, a: 0}
+    - _WaveScales: {r: 0, g: 0.2, b: 0, a: 0}
+    - _WaveSpeeds: {r: 1, g: 1, b: 1, a: 1}

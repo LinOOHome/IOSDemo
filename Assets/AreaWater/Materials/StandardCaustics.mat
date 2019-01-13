@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: StandardCaustics
+  m_Shader: {fileID: 4800000, guid: 506ad3c1c3f667243a23a384aa25ac13, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Caustics:
+        m_Texture: {fileID: 2800000, guid: 0d3dee3d9e7bf1b4b8f3e530e13a71d4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CausticsTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: 56da72b44d61938428f9e40d6d728139, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Pattern:
+        m_Texture: {fileID: 2800000, guid: 890865ac41abb5c41a5ed14e7f7dbbdf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Pattern0:
+        m_Texture: {fileID: 2800000, guid: 890865ac41abb5c41a5ed14e7f7dbbdf, type: 3}
+        m_Scale: {x: 0.1, y: 0.1}
+        m_Offset: {x: 0, y: 0}
+    - _Pattern1:
+        m_Texture: {fileID: 2800000, guid: 890865ac41abb5c41a5ed14e7f7dbbdf, type: 3}
+        m_Scale: {x: 0.1, y: 0.1}
+        m_Offset: {x: 0, y: 0}
+    - ot_Pattern0:
+        m_Texture: {fileID: 2800000, guid: 0d3dee3d9e7bf1b4b8f3e530e13a71d4, type: 3}
+        m_Scale: {x: 0.1, y: 0.1}
+        m_Offset: {x: 0.60508925, y: 0}
+    - ot_Pattern1:
+        m_Texture: {fileID: 2800000, guid: 608324813d97648558f9cea212cc0b37, type: 3}
+        m_Scale: {x: 0.15, y: 0.15}
+        m_Offset: {x: -0.07880449, y: 0.44692248}
+    m_Floats:
+    - _BeginPos: -1
+    - _CausticsDepthOfField: 1
+    - _CausticsDistortionScale: 5
+    - _CausticsDistortionStrength: 0.075
+    - _CausticsFocalDepth: 6
+    - _CausticsStrength: 0.075
+    - _CausticsTextureAverage: 0.07
+    - _CausticsTextureScale: 5
+    - _FogDensity: 0.25
+    - _FogEnd: 20
+    - _FogStart: 0
+    - _MaxDepth: 2
+    - _RampDepth: 0.5
+    - _StartAtDepth: 0.25
+    - _WaterLevel: 7
+    - _beginPos: -1
+    - _maxDepth: 7
+    - ot_CausticsAmbient: 0.05
+    - ot_RampDepth: 1
+    - ot_StartAtDepth: 0.25
+    - ot_Strength: 0.5
+    m_Colors:
+    - _FogColor: {r: 0.18039216, g: 0.4862745, b: 0.5882353, a: 1}

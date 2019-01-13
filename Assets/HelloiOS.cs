@@ -13,4 +13,9 @@ public class HelloiOS : MonoBehaviour {
 	void Update () {
 		
 	}
+
+    private void OnGUI()
+    {
+        GUI.Label(new Rect(Screen.width / 2 - 100, Screen.height / 2 - 50, 200, 100), "Hello iOS!");
+    }
 }
